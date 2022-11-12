@@ -17,8 +17,8 @@ a{color: rgb(55, 16, 170);}
 .dropbtn {
     background-color: rgb(55, 16, 170);
     color: white;
-    padding: 16px;
-    font-size: 16px;
+    padding: 24px;
+    font-size: 24px;
     border: none;
     cursor: pointer;
   }
