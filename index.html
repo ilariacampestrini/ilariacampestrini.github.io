@@ -1,61 +1,48 @@
+
 <html>
     <head>
         <title>Italvolley d'oro</title>
-        <meta name="author" content="Ilaria">
+        <meta name="author" content="Ilaria Campestrini">
         <link href="stile.css" rel="stylesheet" >
         
+        <!--Javascript -->
+        <script type="text/javascript" id="cookiebanner" src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
     </head>
 
 
     <body>
+
+        <!--Homepage -->
+
         <h1  id=inizio>Impresa dell'Italvolley maschile</h1>
-        <h2> Biennio strepitoso per la nazionale italiana di pallavolo maschile: sono
-            campioni d'Europa e del mondo!        </h2>
+        <h2 style="color: rgb(57, 106, 220); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> 
+            Biennio strepitoso per la nazionale italiana di pallavolo maschile: sono campioni d'Europa e del mondo! </h2>
+
+        <br>
 
 
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Menu</button>
-            <div id="myDropdown" class="dropdown-content">
-            <a href="rosa.html">Rosa della squadra</a>
-            <a href="allenatore.html">Allenatore</a>
-            </div>
+        <h3 style="color: rgb(55, 16, 170)">MENU</h3> <!--Elemento con stile ridefinito rispetto al file CSS -->
+            
+        <div style="text-align: left">
+            <li class="menu">
+                <a class='link' href="rosa.html">Rosa della squadra</a></li>
+            <li class="menu">
+                <a class='link' href="allenatore.html">Allenatore</a></li>
         </div>
 
-        <script> 
-            /* When the user clicks on the button,
-            toggle between hiding and showing the dropdown content */
-            function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-            }
 
-            // Close the dropdown menu if the user clicks outside of it
-            window.onclick = function(event) {
-            if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-                }
-            }
-            }
-        </script>
-
-
-
+        <br>
 
         <p>
             La Nazionale azzurra si è presentata alle Olimpiadi di Tokyo 2020 da vicecampione in carica e come una delle squadre 
-            favorite per la vittoria. Tuttavia, dopo una fase a gironi non proprio soddisfacente, l'Italia è stata sconfitta agli
+            favorite per la vittoria. Tuttavia, dopo una fase a gironi non proprio soddisfacente, è stata sconfitta agli
             ottavi di finale dall'Argentina. Dopo questa grossa delusione, la Squadra ha subito una profonda rivoluzione. 
-            Ha cambiato allenatore e metà della rosa riducendo l'età media a 24 anni. 
-            Il nuovo condottiero dell'Italia è Fefè de Giorgi, palleggiatore della Generazione dei Fenomeni.
+            Ha cambiato allenatore e metà della rosa riducendo l'età media a 23 anni. 
+            Il nuovo condottiero dell'Italia è diventato Fefè de Giorgi, palleggiatore della Generazione dei Fenomeni.
             Nel giugno 2021 è stata ufficializzata la sua nomina a commissario tecnico della nazionale maschile italiana per il 
             triennio olimpico fino a Parigi 2024, subentrando a Chicco Blengini una volta terminato il torneo olimpico di Tokyo 2020.
             Durante il periodo delle Olimpiadi ha lavorato con i ragazzi più giovani in dei collegiali, iniziando la sua avventura
-            con gli Europei. L'obiettivo è quello sfruttare gli Europei e i Mondiali per lasciare più spazio ai 
+            con gli Europei. L'obiettivo era quello sfruttare gli Europei e i Mondiali per lasciare più spazio ai 
             giovani promettenti ma con ancora poca esperienza internazionale, in modo da forgiare una squadra competitiva per le 
             Olimpiadi di Parigi.
     
@@ -67,41 +54,42 @@
 
             <h3> GLI EUROPEI 2021 - POLONIA, REPUBBLICA CECA, ESTONIA E FINLANDIA</h3> 
 
-            Agli Europei 2021 l'Italia si presenta senza nessuna pretesa, con tanti giovani esordienti ed età media di 23 anni.
-            Gli Azzurri sono consci dei propri limiti e della loro enesperienza ma anche volenterosi di fare bella figura e di 
-            dimostrare a tutti il loro valore. La spensieratezza e l'audacia si dimostrano infatti i loro punti di forza e l'Italia 
-            supera la fase a gironi al primo posto con 0 sconfitte e 5 vittorie contro Slovenia, Bulgaria, Repubblica Ceca e Bielorussia.
-            La storia si ripete agli ottavi di finale e ai quarti di finale dove la Nazionale batte nettamente Lettonia e Germania per 3-0.
-            La semifinale sembra un ostacolo insormontabile per la giovane Italia: l'avversaria è infatti la Serbia, squadra molto ostica e 
-            campioni d'Europa in carica. Però i giovani spavaldi non si fanno intimorire e la sconfiggono con un brillante 3-1.
+            Agli Europei 2021 l'Italia si è presentata senza nessuna pretesa, con tanti giovani esordienti ed età media di 23 anni.
+            Gli Azzurri erano consci dei propri limiti e della loro enesperienza ma anche volenterosi di fare bella figura e di 
+            dimostrare a tutti il loro valore. La spensieratezza e l'audacia si sono dimostrati infatti i loro punti di forza e l'Italia ha
+            superato la fase a gironi al primo posto con 0 sconfitte e 5 vittorie contro Slovenia, Bulgaria, Repubblica Ceca e Bielorussia.
+            La storia si è ripetuta agli ottavi e ai quarti di finale dove la Nazionale ha battuto nettamente Lettonia e Germania per 3-0.
+            La semifinale sembrava un ostacolo insormontabile per la giovane Italia: l'avversaria era infatti la Serbia, squadra molto ostica e 
+            campioni d'Europa in carica. Però i giovani non si sono fatti intimorire e hanno vinto con un brillante 3-1.
             Infine gli Azzurri sono arrivati in finale contro la Slovenia, squadra molto esperta e vicecampione europea in carica
-            che vuole vendicare la sconfitta nella finale dell'edizione precedente. La partita è molto tesa, gli avversari sembrano sempre un
-            passo avanti ma alla fine il tie-break vede avere la meglio proprio gli Azzurri. Nella Spodek Arena di Katowice scoppia la festa, la gioia è incontenibile:
+            che voleva vendicare la sconfitta nella finale dell'edizione precedente. La partita è stata molto tesa, gli avversari sempre un
+            passo avanti ma alla fine il tie-break ha visto avere la meglio proprio gli Azzurri. Nella Spodek Arena di Katowice è scoppiata la festa, 
+            la gioia è stata incontenibile:
             la giovane Italia senza nessuna aspettativa ha invece dimostrato di potere già battersi al livello delle big e anche batterle!
             <br> <br> 
 
-        <img class="grande" src="Campioni d'Europa.jpg">
+        <img class="grande" src="Campioni d'Europa.jpg"> <!--Immagine con URL relativo --> 
 
         <br> <br> 
         <h3> I MONDIALI 2022 - POLONIA E SLOVENIA </h3> 
 
-        L'estate successiva inizia con la VNL (Volleyball Nations League), torneo itinerante che dura da giugno a luglio. L'Italia 
-        arriva prima dopo la prima fase e si va a giocare la Final Eight in casa, a Bologna. Qui però purtroppo il risultato non è 
-        sperato. Infatti, dopo i quarti di finale vinti per 3-1 contro i Paesi Bassi, la Nazionale si va a schiantare in semifinale e 
-        finalina contro due corazzate (Francia e Polonia) e ne esce entrambe le volte sconfitta con un durissimo 3-0.
-        Così gli Azzurri si affacciano al Mondiale con un pò di dubbi, temendo di non essere ancora pronta a stare nell'Olimpo delle grandi.
-        La fase a gironi è solo una formalità: l'Italia si ritrova insieme a Cina, Turchia e Canada e vince senza troppe difficoltà 
-        tutte le partite per 3-0. Si ritrova così a giocare contro Cuba, squadra giovane ma molto pericolosa: la partita è brutta 
-        e non convincente ma riesce a vincerla per 3-1. Tuttavia i quarti di finali sembrano proibitivi: l'avversaria è la Francia, campione 
-        olimpico in carica e recente vincitrice della VNL. La partita è molto dura, la Francia sembra sempre un gradino sopra ma 
-        alla fine il tie-break premia gli Azzurri che si qualificano quindi alla semifinale. Ora è il turno della Slovenia, vogliosa
-        di rivincita dopo la sconfitta alla finale europea dell'anno precedente. La Stozice Arena di Lubiana è gremita di più di diecimila 
-        tifosi sloveni che supportano la loro squadra. Gli Azzurri però non si fanno intimorire e vincono 3-0 in una partita senza storia.
-        La finale è contro la Polonia, Campione del mondo in carica per due volte di fila. A questo punto l'Italia sa di essere 
-        ad un passo dalla storia: la partita è proprio nella Spodek Arena di Katowice, la stessa palestra che l'anno prima l'aveva 
-        incoronata Campione d'Europa ma questa volta piena di più di diecimila tifosi polacchi fronti a supportare la loro squadra.
-        Il primo set gli Azzurri non riescono ad esprimere al meglio il proprio gioco e la Polonia si porta avanti 1-0. A questo punto l'Italia
-        si sblocca e riesce ad imporsi sugli avversari vincendo alla fine per 3-1. La felicità è enorme: oltre ogni tipo di pronostico
+        L'estate successiva è iniziata con la VNL (Volleyball Nations League), torneo itinerante di due mesi. Dopo la prima fase l'Italia è
+        arrivata prima e ha giocato la Final Eight in casa, a Bologna. Qui però purtroppo non è arrivato il risultato 
+        sperato. Infatti, dopo i quarti di finale vinti per 3-1 contro i Paesi Bassi, la Nazionale si è andata a schiantare in semifinale e 
+        finalina contro due corazzate (Francia e Polonia) e ne è uscita entrambe le volte sconfitta con un durissimo 3-0.
+        Così gli Azzurri si sono affacciati al Mondiale con un pò di dubbi, temendo di non essere ancora pronta a stare nell'Olimpo delle grandi.
+        La fase a gironi è stata solo una formalità: l'Italia si è ritrovata insieme a Cina, Turchia e Canada e ha vinto senza troppe difficoltà 
+        tutte le partite per 3-0. Si è ritrovata così a giocare contro Cuba, squadra giovane ma molto pericolosa: la partita è stata brutta 
+        e non convincente ma vinta per 3-1. Tuttavia i quarti di finali sembravano proibitivi: l'avversaria era la Francia, campione 
+        olimpico in carica e recente vincitrice della VNL. La partita è stata molto dura, la Francia sempre un gradino sopra ma 
+        alla fine il tie-break ha premiato gli Azzurri che sono qualificati quindi alla semifinale. Quindi è arrivato il turno della Slovenia, vogliosa
+        di rivincita dopo la sconfitta alla finale europea dell'anno precedente. La Stozice Arena di Lubiana era gremita di più di diecimila 
+        tifosi sloveni che supportavanono la loro squadra. Gli Azzurri però non si sono intimorire e hanno vinto 3-0 una partita senza storia.
+        La finale è stata contro la Polonia, Campione del mondo in carica per due volte di fila. A questo punto l'Italia sapeva di essere 
+        ad un passo dalla storia: la partita era proprio nella Spodek Arena di Katowice, la stessa palestra che l'anno prima l'aveva 
+        incoronata Campione d'Europa ma questa volta piena di più di diecimila tifosi polacchi pronti a supportare la loro squadra.
+        Il primo set gli Azzurri non sono riusciti ad esprimere al meglio il proprio gioco e la Polonia si è portata avanti 1-0. A questo punto l'Italia
+        si è sbloccata ed è riuscita ad imporsi sugli avversari vincendo alla fine per 3-1. La felicità è stata enorme: oltre ogni tipo di pronostico
         siamo diventati CAMPIONI DEL MONDO!!!
         <br> <br>
 
@@ -117,6 +105,9 @@
         <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
         <br> <br> <br>  
 
-        <a href="#inizio"> Torna all'inizio </a>
+        <a href="#inizio" style="color:rgb(57, 106, 220)"> <b>Torna all'inizio </b></a>
+        <!--Elemento con stile ridefinito rispetto al file CSS -->
+
+        <br> <br> 
     </body>
 </html>
